@@ -163,3 +163,8 @@ config LIBC_PICOLIBC_DEFAULT_RAM_SIZE
       application when linked using the default picolibc link script.
       Can be overridden on the linker command line using
       -Wl,--defsym=__ram_size=<value>
+
+config LIBC_PICOLIBC_SEMIHOST
+    bool
+    prompt "Enable semihost"
+    default y
