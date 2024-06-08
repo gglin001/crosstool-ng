@@ -33,7 +33,6 @@ GLOBAL_ATEXIT:newlib-global-atexit
 LITE_EXIT:lite-exit
 MULTITHREAD:newlib-multithread
 RETARGETABLE_LOCKING:newlib-retargetable-locking
-SEMIHOST:semihost
     "
 
     for ynarg in $yn_args; do
