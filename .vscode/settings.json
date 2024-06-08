@@ -1,4 +1,6 @@
 {
+  "files.trimTrailingWhitespace": false,
+  "files.insertFinalNewline": false,
   "terminal.integrated.env.linux": {
     "EXT_PATH": "${workspaceFolder}/build/install/bin",
   }
